@@ -3,6 +3,7 @@
     <div>
       <Logo />
       <h1>Halo, Selamat Datang</h1>
+      <NuxtLink to="test">Test-to</NuxtLink>
       <div class="links">
         <a
           href="https://nuxtjs.org/"

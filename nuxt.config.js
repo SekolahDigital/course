@@ -1,5 +1,9 @@
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
+  loading: {
+    color: 'blue',
+    height: '5px'
+  },
   head: {
     title: 'sekolahdigital',
     meta: [
