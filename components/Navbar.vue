@@ -1,7 +1,7 @@
 <template>
    <nav class="navbar navbar-expand-lg navbar-dark">
       <router-link class="navbar-brand" to="/">
-        <h4 class="font-weight-bold">Sekolah<br>Digital</h4>
+        <h4 class="font-weight-bold" style="line-height:20px">Sekolah<br>Digital</h4>
       </router-link>
       <button
         class="navbar-toggler"

@@ -57,16 +57,43 @@
       </no-ssr>
     </div>
   </section>
+
+  <section  class="mb-5">
+    <div class="container">
+      <h2 class="font-weight-bold">Kelas-Kelas Kami</h2>
+      <p>Daftar kelas-kelas kami yang mungkin anda sukai.</p>
+      <div class="kategori-button mb-5">
+        <button class="btn btn-dark">PROGRAMMING</button>
+        <button class="btn">SOFT SKILL</button>
+        <button class="btn">MEMASAK</button>
+      </div>
+
+      <div class="daftar-kelas-kami d-flex flex-wrap justify-content-between" style="width:1036px;">
+        <DaftarKelasKami/>
+        <DaftarKelasKami/>
+        <DaftarKelasKami/>
+        <DaftarKelasKami/>
+        <DaftarKelasKami/>
+        <DaftarKelasKami/>
+      </div>
+      
+     
+    </div>
+  </section>
+
+  <BenefitSection/>
+  <KeunggulanSection/>
+  <Footer/>
 </main>
 </template>
 
 <script>
 import "~/assets/style.css"
-// import {Carousel,Slide} from "vue-carousel"
 export default {
  
 };
 </script>
 
 <style>
+
 </style>
