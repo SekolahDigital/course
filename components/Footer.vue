@@ -1,5 +1,5 @@
 <template>
-  <section class="footer py-5 bg-purple">
+  <section class="footer py-5 bg-dark">
     <div class="container text-white">
       <div class="row">
         <div class="col-lg-4 col-6">
