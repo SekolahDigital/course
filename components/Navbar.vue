@@ -1,5 +1,5 @@
 <template>
-   <nav class="navbar navbar-expand-lg navbar-dark">
+   <nav class="navbar navbar-expand-lg navbar-dark" style="z-index:99 !important">
       <router-link class="navbar-brand" to="/">
         <h4 class="font-weight-bold" style="line-height:20px">Sekolah<br>Digital</h4>
       </router-link>
@@ -19,18 +19,18 @@
           <li class="nav-item">
             <router-link class="nav-link" active-class="active" to="/kelas">KELAS</router-link>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <router-link class="nav-link" active-class="active" to="/mading">MADING</router-link>
-          </li>
+          </li> -->
           <li class="nav-item">
             <router-link class="nav-link" active-class="active" to="/roadmap">ROADMAP</router-link>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <router-link class="nav-link" active-class="active" to="/cart">CART</router-link>
-          </li>
-          <li class="nav-item">
+          </li> -->
+          <!-- <li class="nav-item">
             <router-link class="nav-link" active-class="active" to="/wishlist">WISHLIST</router-link>
-          </li>
+          </li> -->
     
           <li class="nav-item login-nav">
             <router-link

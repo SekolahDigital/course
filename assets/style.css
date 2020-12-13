@@ -22,7 +22,7 @@ body {
   width: 49%;
 }
 .btn-dark {
-  background-color: #ffd369;
+  background-color: #ffd369!important;
   border-color: #ffd369;
   color: #222831;
 }
