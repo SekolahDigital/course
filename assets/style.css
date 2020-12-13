@@ -23,8 +23,11 @@ body {
 }
 .btn-dark {
   background-color: #ffd369!important;
-  border-color: #ffd369;
+  border-color: #ffd369!important;
   color: #222831;
+}
+.bg-primary{
+  background-color: #ffd369!important;
 }
 .kategori-button > button {
   font-weight: 600;
